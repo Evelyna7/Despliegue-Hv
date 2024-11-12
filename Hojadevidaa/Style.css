@@ -1,0 +1,113 @@
+.profile-photo img {
+    width: 150px; /* Ajusta el ancho a un tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 60%; /* Redondea la imagen para que parezca circular */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f0f0;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cv-container {
+    width: 80%;
+    max-width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.cv-container:hover {
+    transform: translateY(-5px);
+}
+
+.cv-header {
+    background-color: #333;
+    color: #f3f0f0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cv-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #e0b0ff;
+    margin-top: 0.5rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #e0b0ff;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 1.1rem;
+}
+
+.social-links a:hover {
+    color: #f3f0f0;
+}
+
+.cv-section {
+    padding: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.cv-section:last-child {
+    border-bottom: none;
+}
+
+.cv-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #e0b0ff;
+    padding-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.job, .education {
+    margin-bottom: 1.5rem;
+}
+
+.job h3, .education h3 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 0.3rem;
+}
+
+.company, .institution {
+    font-weight: bold;
+    color: #e0b0ff;
+    margin-bottom: 0.3rem;
+}
+
+.date {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 0.5rem;
+    }
